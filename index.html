@@ -4,42 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisão de HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="">Listas</a>
-                </li>
-                <li>
-                    <a href="">Tabelas</a>
-                </li>
-                <li>
-                    <a href="">Formulários</a>
-                </li>
-            </ul>
+            <a href="#listas">Listas</a>
+            <a href="#">Tabelas</a>
+            <a href="">Formulários</a>
         </nav>
     </header>
     <main>
         <section id="listas">
             <h2>Listas Ordenadas e Desordenadas</h2>
-            <div class="lista-ordenada">
                 <ol>
                     <li>Baleia</li>
                     <li>Gavião</li>
                     <li>Raposa</li>
                     <li>Galo</li>
                 </ol>
-            </div>
-            <div class="lista-desordenada">
+
                 <ul>
                     <li>Azul</li>
                     <li>Amarelo</li>
                     <li>Verde</li>
                     <li>Rosa</li>
                 </ul>
-            </div>
         </section>
         <section id="tabelas">
             <h2>Tabelas</h2>
@@ -86,6 +76,10 @@
                 <div>
                     <label for="email">E-mail</label>
                     <input type="email" id="email" placeholder="Digite o seu melhor e-mail: ">
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha: ">
                 </div>
             </form>
         </section>
